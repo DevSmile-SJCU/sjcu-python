@@ -1,9 +1,9 @@
 # 존재하지 않는 파일을 읽기모드로 여는 경우 : FileNotFoundError 후 종료
-# myFile = open('NotExist.txt', 'r')
+myFile = open('NotExist.txt', 'r')
 
 # 잘못된 접근 : IndexError 후 종료
-# myList = [1, 2, 3]
-# print(myList[3])
+myList = [1, 2, 3]
+print(myList[3])
 
 # 예외처리 : try ~ except
 try:
@@ -26,7 +26,7 @@ except Exception as e:
     print(e)
 
 # 예외처리 : try ~ except ~ finally
-# 여러개의 예외를 한벚에 처리하려면 튜플로 묶어서 처리할 수 있음
+# 여러개의 예외를 한번에 처리하려면 튜플로 묶어서 처리할 수 있음
 # except (FileNotFoundError, IndexError, ZeroDivisionError) as e:
 try:
     myFile_1 = open('example.txt', 'w')
