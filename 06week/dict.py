@@ -37,8 +37,6 @@ data_1['1st'] = 'hans'
 print(data_1)
 print(data_2)
 
-
-
 # Dictionary Comprehension의 특징과 예
 var = {'chris' : 10, 'tommy' : 30, 'harry' : 20}
 print(var)
