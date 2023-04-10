@@ -53,7 +53,7 @@ print(Calc.name)
 print(myCalc.name)
 print(yourCalc.name)
 
-# 클래스 static 변수의 사용예
+# 클래스 변수 (static변수) 의 사용예
 class exClass:
 	staticVar = 0
 
@@ -74,17 +74,17 @@ print(exClass.staticVar)
 # 클래스 상속, 오버라이딩의 구현
 class Animal:
     def __init__(self):
-        self.name = 'Animal'
+        self._name = 'Animal'
         self.age = 0
 
     def __str__(self):
-        return 'name: ' + self.name + ', age: ' + str(self.age)
+        return 'name: ' + self._name + ', age: ' + str(self.age)
 
     def getName(self):
-        return self.name
+        return self._name
 
     def setName(self, name):
-        self.name = name
+        self._name = name
 
     def getAge(self):
         return self.age
@@ -97,6 +97,11 @@ class Animal:
     
 animal = Animal()
 print(animal)
+
+animal.setName('MyAnima')
+print(animal.getName())
+print(animal._name)
+
 animal.setAge(10)
 print(animal.getAge())
 animal.say()
