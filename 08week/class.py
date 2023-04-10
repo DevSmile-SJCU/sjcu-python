@@ -3,8 +3,6 @@
 
 # 함수를 이용한 구현
 def add(x, y):
-    print(x)
-    print(y)
     return x + y
 
 val_x = 1
@@ -16,7 +14,7 @@ print(val_sum)
 class Calc:
     name = 'Calc'
     def __init__(self):
-        self.value = 0
+        self.value = 0                 
 
     def add(self, x, y):
         self.value = x + y
