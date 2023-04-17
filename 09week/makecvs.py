@@ -14,12 +14,12 @@ def calcGrade(kor, math):
   
 # 10000개 데이터를 만들어 CSV에 기록
 fp = open("grade.csv", "w", encoding="utf-8")
-fp.write("KOR,MATH,GRADE\r\n")
+fp.write("KOR,MATH,GRADE\n")
  
 for i in range(10000):
   kor = random.randint(10, 100)
   math = random.randint(10, 100)
   grade = calcGrade(kor, math)
-  fp.write("{0},{1},{2}\r\n".format(kor, math, grade))
+  fp.write("{0},{1},{2}\n".format(kor, math, grade))
   
 fp.close()

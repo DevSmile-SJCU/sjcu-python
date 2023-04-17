@@ -38,9 +38,7 @@ if __name__ == '__main__':
     print('----- Done (2) -----')
     
     print('----- Start (3) -----')
-    subprocess.call(['python', './06week/dict.py'])
+    # https://blog.naver.com/PostView.nhn?blogId=sagala_soske&logNo=221280201722
+    result = subprocess.call(['python', './06week/dict.py'])
+    print(result)
     print('----- Done (3) -----')  
-     
-    print('----- Start (4) -----')
-    subprocess.call(['python ./06week/dict.py'], shell=True)
-    print('----- Done (4) -----')  
