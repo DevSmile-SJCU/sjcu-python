@@ -1,5 +1,3 @@
-# 모르는 것. Index의 믜미.. 내가 정확히 설명한 것인가?
-
 # pip install pandas
 import pandas as pd
 
