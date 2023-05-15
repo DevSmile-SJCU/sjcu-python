@@ -1,6 +1,5 @@
 # https://openpyxl.readthedocs.io/en/stable/tutorial.html
 # pip install openpyxl
-# pip install pillow
 
 # 용어 정리 : 워크북(엑셀파일) - 워크시트(시트) - 셀(행,열), Range : 셀의 범위
 
