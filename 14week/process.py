@@ -2,10 +2,9 @@
 # https://docs.python.org/ko/3/library/multiprocessing.html
 # https://docs.python.org/ko/3/library/subprocess.html
 
-from multiprocessing import Process, Queue, Lock
+from multiprocessing import Process, Queue
 import subprocess
 import os
-import time
 
 def info(title):
     print(title)
