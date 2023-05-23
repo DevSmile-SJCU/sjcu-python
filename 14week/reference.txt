@@ -2,5 +2,7 @@
 
 * Ref : https://wikidocs.net/book/6353
 
+* ChatGPT
+
 * Sikuli : http://www.sikulix.com/
   - 14주차에 올려 드릴 압축 파일을 함께 참고 부탁드립니다.
