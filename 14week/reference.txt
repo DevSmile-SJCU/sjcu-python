@@ -1,0 +1,6 @@
+[파이썬을 활용한 자동화 구현 - 업무자동화]
+
+* Ref : https://wikidocs.net/book/6353
+
+* Sikuli : http://www.sikulix.com/
+  - 14주차에 올려 드릴 압축 파일을 함께 참고 부탁드립니다.
